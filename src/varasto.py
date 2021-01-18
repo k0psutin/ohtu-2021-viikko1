@@ -4,11 +4,11 @@ class Varasto:
             self.tilavuus = tilavuus
         else:
             # virheellinen, nollataan
-            self.tilavuus = 0.0
+            self.tilavuus = 3.0
         
         if alku_saldo < 0.0:
             # virheellinen, nollataan
-            self.saldo = 0.0
+            self.saldo = 3.0
         elif alku_saldo <= tilavuus:
             # mahtuu
             self.saldo = alku_saldo
